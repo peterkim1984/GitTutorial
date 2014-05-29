@@ -1,0 +1,33 @@
+commands
+
+vim
+  - quit :q!
+  - write and quit :wq
+  --INSERT-- mode [ i ]
+  exiting insert mode [ esc ]
+
+git 
+
+  git init
+    - initializes an empty repo
+
+  git status 
+    - look at state of repo
+
+  git add <file to be added>
+    - adds file to "staged changes"
+
+  git config
+    git config --global user.name
+    git config --global user.email
+    git config --global core.editor subl
+    git config --global --edit
+
+
+  git commit 
+    - saves version snapshot of repo
+    git commit -a
+      - adds all changes to this commit
+    git commit -am "message"
+      - adds all with message
+    
