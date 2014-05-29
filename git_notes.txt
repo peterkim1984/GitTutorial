@@ -30,4 +30,5 @@ git
       - adds all changes to this commit
     git commit -am "message"
       - adds all with message
-    
+
+    //new line
